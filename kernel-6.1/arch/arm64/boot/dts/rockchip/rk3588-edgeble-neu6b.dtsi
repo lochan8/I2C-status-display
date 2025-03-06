@@ -610,6 +610,11 @@
 	};
 };
 
+&i2c8 {
+        pinctrl-0 = <&i2c8m3_xfer>;
+        status = "okay";
+};
+
 &i2s0_8ch {
 	status = "okay";
 	rockchip,playback-channels = <2>;
