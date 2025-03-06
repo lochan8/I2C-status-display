@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright (c) 2023 Edgeble AI Technologies Pvt. Ltd.
+ */
+
+/dts-v1/;
+
+#include "rk3588j.dtsi"
+#include "rk3588-edgeble-neu6b.dtsi"
+
+/ {
+	model = "[Linux-6.1] Edgeble NCM6B-HDMI1-CAM1";
+	compatible = "edgeble,neural-compute-module-6b-io", "rockchip,rk3588";
+};
+
+#include "rk3588-edgeble-neu6b-io-hdmi1.dtsi"
+#include "rk3588-edgeble-neu6b-cam1.dtsi"
